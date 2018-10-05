@@ -24,8 +24,9 @@ h3 {
 }
 
 .navbar-brand {
+
     padding: 0.6em;
-    font-size: 200%;
+    font-size: 150%;
     background: #4aaaa5;
     color: #ffffff;
     margin-bottom: 0;
@@ -35,16 +36,56 @@ h3 {
     color: #ffffff;
 }
 
-button {
+#submit {
     background: #4aaaa5;
     color: #ffffff;
     transition: 0.25s;
 }
 
-button:hover {
+#submit:hover {
     background: #5ac7c1;
 }
 
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.img_frame {
+    width: 100%;
+    margin: 1em;
+}
+
+.img_frame img {
+    display: block;
+    z-index: -1;
+    transform: translateZ(0);
+    transition: 0.25s;
+}
+
+.img_frame:hover > img {
+    opacity: 0.8;
+}
+
+.img_frame > p{
+    display: block;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    background: #4aaaa5;
+    padding: 5% 0 5% 0;
+    font-size: 150%;
+    bottom: 30%;
+}
+
+.navbar-toggler {
+    background-color: #4aaaa5;
+    border: 1px solid #4aaaa5;
+}
+
+.navbar-toggler:focus {
+    background-color: #5ac7c1;
+}
 
 /* Sticky footer styles
 -------------------------------------------------- */
