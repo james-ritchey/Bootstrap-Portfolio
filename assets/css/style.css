@@ -15,12 +15,12 @@ h3 {
 }
 
 .nav-link {
-    color: #777777;
+    color: #777777 !important;
     transition: 0.25s;
 }
 
 .nav-link:hover {
-    color: #979797;
+    color: #979797 !important;
 }
 
 .navbar-brand {
